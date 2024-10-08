@@ -6,7 +6,7 @@ Compilar `helloworld.c`:
 `gcc hellworld.c -o helloworld`
 
 Ejecutar el preprocesador:
-`gcc helloworld.c -o helloworld.i`
+`gcc helloworld.c -E -o helloworld.i`
 
 Traducir a lenguaje ensamblador:
 `gcc helloworld.i -S`
